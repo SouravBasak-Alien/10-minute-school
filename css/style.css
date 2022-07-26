@@ -1042,6 +1042,7 @@ footer .footer-card-two .link-box h5{
 } 
 .fixed-menu .nav-menu ul  {
 	display: flex;
+	transition: all 0.3s ease-in-out;
 	
 	
 }
@@ -1080,6 +1081,7 @@ footer .footer-card-two .link-box h5{
 }
 .open{
 	display: none;
+	transition: all 0.3s ease-in-out;
 }
 .fixed-menu .nav-menu{
 	width: 30%;

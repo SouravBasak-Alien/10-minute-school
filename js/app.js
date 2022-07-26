@@ -180,12 +180,19 @@ $(document).ready(function () {
 
 
 });
-const iconMenu = document.getElementById("mobile-hambarger");
-const menu = document.getElementById("mobile-menu");
 
-iconMenu.addEventListener("click", function () {
-	menu.classList.add("open")
+
+const iconMenu = document.getElementById("icon-bar");
+const menu = document.getElementById("icon-menu");
+
+
+
+iconMenu.addEventListener("click", () => {
+	if (menu.className === "open") {
+		menu.classList.remove("open");
+	}
+	else {
+		menu.classList.add("open")
+	}
 })
-iconMenu.addEventListener("click", function () {
-	menu.classList.remove("open")
-})
+
