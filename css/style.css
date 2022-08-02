@@ -1112,7 +1112,8 @@ footer .footer-card-two .link-box h5{
 		display: none;
 	}
 	section.hero-slider .slider .slide .hero-card {
-		width: 216px;
+		width: 230px;
+		margin: 0 auto;
 	}
 	.second-section h2{
 		padding: 0 5rem  ;
